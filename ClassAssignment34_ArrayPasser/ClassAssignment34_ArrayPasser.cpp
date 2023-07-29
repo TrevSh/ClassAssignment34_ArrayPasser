@@ -1,7 +1,7 @@
 #include <iostream>
 
 void increase(int* const array, const int NUM_ELEMENTS);
-void display(const int* const array, const int NUM_ELEMENTS);
+void display(const int* const array, const int NUM_ELEMENTS);           //When passing an array through a function, its good to include the number of elements in the array to avoid trying to access an element thats not there.
 
 int main()
 {
